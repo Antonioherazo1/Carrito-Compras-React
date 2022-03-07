@@ -26,7 +26,7 @@ class Carro extends Component {
         return (
             <div>
                 <span style={styles.bubble}>
-                    {cantidad != 0 ? <BubbleAlert value={cantidad} /> : null}
+                    {cantidad !== 0 ? <BubbleAlert value={cantidad} /> : null}
                 </span>
                 <button onClick={mostrarCarro} style={styles.carro}>
                     Carro
