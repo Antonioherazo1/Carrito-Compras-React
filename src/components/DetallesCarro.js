@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import Carro from './Carro'
+
 
 const styles = {
     detallesCarro: {
